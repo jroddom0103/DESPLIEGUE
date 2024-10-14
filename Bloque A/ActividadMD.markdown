@@ -14,5 +14,5 @@
 
 ## Mediante MarkDown Preview en VisualStudioCode se puede visualizar el contenido en tiempo real.
 
-[](https://github.com/jroddom0103/DESPLIEGUE/tree/master/Bloque%20A/Capturas/DNS1.png)
-[](https://github.com/jroddom0103/DESPLIEGUE/tree/master/Bloque%20A/Capturas/InstalaciónPreviewer.png)
+![Imagen1](https://github.com/jroddom0103/DESPLIEGUE/tree/master/Bloque%20A/Capturas/CapturaPrevisualizador.png)
+![Imagen2](https://github.com/jroddom0103/DESPLIEGUE/tree/master/Bloque%20A/Capturas/InstalaciónPreviewer.png)
