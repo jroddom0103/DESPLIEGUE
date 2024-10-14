@@ -13,3 +13,6 @@
 5. `git push -u origin master` \(Envía el contenido de la carpeta al repositorio de la página de github\)
 
 ## Mediante MarkDown Preview en VisualStudioCode se puede visualizar el contenido en tiempo real.
+
+[](https://github.com/jroddom0103/DESPLIEGUE/tree/master/Bloque%20A/Capturas/DNS1.png)
+[](https://github.com/jroddom0103/DESPLIEGUE/tree/master/Bloque%20A/Capturas/InstalaciónPreviewer.png)
