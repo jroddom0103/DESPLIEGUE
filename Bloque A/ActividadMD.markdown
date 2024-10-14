@@ -3,7 +3,7 @@
 ## Creación de repositorio local.
 - Se crea una cuenta de github: **jroddom0101**
 - Se crea un repositorio: [*DESPLIEGUE*](https://github.com/jroddom0103/DESPLIEGUE)
-- Se instala github y se inicia sesión
+- Se instala github y se inicia sesión.
 
 ## En la carpeta del módulo de despliegue se realizan los siguientes comandos:
 1. `git init \(Creación del repositorio en github en local\)`
