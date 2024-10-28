@@ -6,6 +6,9 @@
 ![](/Capturas/InstalacionPaquetesAdicionales.png)
 ![](/Capturas/AgregarClaveGPG.png)
 ![](/Capturas/AgregarRepositorioDocker.png)
+![](/Capturas/InstalacionPaquetesAdicionales.png)
+![](/Capturas/PaquetesDockerRepositorio.png)
+![](/Capturas/HolaMundo.png)
 - Configurar vuestro sistema para poder ejecutar docker sin permisos de administrador (en caso de ser necesario).
 - Ejecutar el comando docker que me permite obtener la versión instalada y el comando docker para obtener el "HOLA MUNDO" de esta tecnología.
 
