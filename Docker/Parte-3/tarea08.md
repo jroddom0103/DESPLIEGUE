@@ -7,7 +7,7 @@ Seguimos con el tema de la persistencia de datos:
 ![](/Capturas/BorradoVolumen.png)
 2. Una vez hecho esto arrancar dos contenedores basados en la imagen php:7.4-apache que hagan un **bind mount** de la carpeta saludo en la carpeta /var/www/html del contenedor.
 3. Uno de ellos deberá redireccionar su puerto 80 al 8181 y el otro al 8282. Y su nombres serán c1 y c2.
-![](/Capturas/BindMount.png)
+![](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Docker/Parte-3/Capturas/BindMount.png)
 
 # Comprobación con curl
 ![](/Capturas/Comprobación.png)
