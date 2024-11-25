@@ -10,7 +10,7 @@
     - Instalación de las herramientas dns (apt install dnsutils).
     - Creación del usuario usuario con contraseña usuario (adduser usuario)
 
-![](/Capturas/imagen_ubuntu.png)    
+![](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Docker/Parte-4/Capturas/ImagenUbuntu.png)    
 
 2. Tras realizar dichas instalaciones y utilizando la orden docker commit crear una imagen que se llame de la siguiente manera: TuNombreUsuarioDockerHub/a61 y subirla a DockerHub utilizanzo la orden docker push. Recordad que antes tendréis que hacer docker login.
 
