@@ -12,7 +12,7 @@
 
 ![](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Docker/Parte-4/Capturas/ImagenUbuntu.png)    
 
-2. Tras realizar dichas instalaciones y utilizando la orden docker commit crear una imagen que se llame de la siguiente manera: TuNombreUsuarioDockerHub/a61 y subirla a DockerHub utilizanzo la orden docker push. Recordad que antes tendréis que hacer docker login.
+2. Tras realizar dichas instalaciones y utilizando la orden docker commit crear una imagen que se llame de la siguiente manera: TuNombreUsuarioDockerHub/a61 y subirla a DockerHub utilizando la orden docker push. Recordad que antes tendréis que hacer docker login.
 
 ## 2a Parte
 
@@ -23,4 +23,4 @@
         - index.html que contenga HOLA SOY XXXXXX sustituyendo XXXXX por tu nombre
         - info.php que contengo el siguiente código &lt;? php phpinfo(); ?>
 
-2. Una vez creado dicho Dockerfile construir la imagen, que se deberá llamar TuNombreUsarioDockerHub/a62.
+2. Una vez creado dicho Dockerfile construir la imagen, que se deberá llamar TuNombreUsuarioDockerHub/a62.
