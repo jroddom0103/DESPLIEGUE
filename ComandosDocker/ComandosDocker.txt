@@ -1,0 +1,22 @@
+docker volume create (nombre volumen)
+docker volume ls
+
+docker run -it --mount type=bind
+
+docker save/commit
+
+----------------------------------------------------------------
+
+Tutorial Docker File:
+
+
+FROM ubuntu: 20.04
+RUN apt update && apt install -y arm -gcc git nano unzip
+WORKDIR /opt
+RUN git clone
+RUN wget http://FreeRTOS.tar.gz
+RUN unzip FreeRTOS.tar.gz ./rtos
+RUN rm FreeRTOS.tar.gz
+
+docker build --name (nombre imagen) .
+docker run -it (nombre de la imagen) /bin/bash
