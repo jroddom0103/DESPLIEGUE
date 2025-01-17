@@ -44,11 +44,17 @@
 ## 3.4.1 Meterse Perfil Bob
 ![3.4.1 Meterse Perfil Bob](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/03_shell/Capturas/3.4.1MetersePerfilBob.png)
 
+Se ve el archivo hello.sh porque el usuario bob tiene permisos de lectura en el directorio home/ncs. Y lo puede ejecutar porque tiene permisos de ejecución del archivo.
+
 ## 3.4.2 Poner Script Bash Bob
 ![3.4.2 Poner Script Bash Bob](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/03_shell/Capturas/3.4.2PonerScriptBashBob.png)
 
 ## 3.4.3 Bob No Tiene Permisos
 ![3.4.3 Bob No Tiene Permisos](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/03_shell/Capturas/3.4.3BobNoTienePermisos.png)
 
+No tiene permisos porque el autor no tiene permisos de ejecución
+
 ## 3.4.4 Resultado Final
 ![3.4.4 Resultado Final](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/03_shell/Capturas/3.4.4ResultadoFinal.png)
+
+Smith tiene permisos de ejecución con el archivo hello.sh porque todos los usuarios tienen permisos de ejecución, mientras que el bob.sh no, porque ni el autor, ni el grupo, ni el resto de usuarios tienen permiso de ejecución.
