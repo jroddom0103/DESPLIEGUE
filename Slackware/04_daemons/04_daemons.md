@@ -15,3 +15,6 @@
 - openbox es un gestor de ventanas de código abierto que se utiliza para gestionar las ventanas y la interfaz gráfica de usuario en un sistema operativo basado en Linux.
 - pcmanfm es un administrador de archivos de código abierto que se utiliza para navegar por el sistema de archivos en un sistema operativo basado en Linux.
 - kworker/1:3-eve es un trabajador del kernel de Linux que se utiliza para realizar tareas en segundo plano en un sistema operativo basado en Linux.
+
+# Exercise 4.2 Exploring network processes
+## Execute the command nmap localhost. Write down all the processes returned and explain their purpose
