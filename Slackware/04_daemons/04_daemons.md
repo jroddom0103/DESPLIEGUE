@@ -4,7 +4,7 @@
 ## Using ps aux and top (and any other commands you feel would be useful), find out the total number of processes that are currently running. Identify the 10 most CPU-intensive processes and give a brief (one sentence) description of what each of them do. Hint: you can use ps aux | less to scroll through the list and man command to find out more about a command.
 
 ## 4.1 Uso de PS aux y top para entender procesos
-![4.1 Uso de PS aux y top para entender procesos](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.1.1PSAuxTop.png)
+![4.1 Uso de PS aux y top para entender procesos](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.1PSAuxTop.png)
 
 - Xorg es un servidor de pantalla de código abierto que implementa el protocolo X11. Es el responsable de mostrar la interfaz gráfica de usuario en la pantalla.
 - lxterminal es un emulador de terminal de código abierto que se utiliza para ejecutar comandos en un sistema operativo basado en Linux.
@@ -18,3 +18,6 @@
 
 # Exercise 4.2 Exploring network processes
 ## Execute the command nmap localhost. Write down all the processes returned and explain their purpose
+
+## 4.2 Uso de nmap localhost para explorar procesos de red
+![4.2 Uso de nmap localhost para explorar procesos de red](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.2NMapLH.png)
