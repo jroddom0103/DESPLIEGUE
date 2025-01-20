@@ -21,3 +21,8 @@
 
 ## 4.2 Uso de nmap localhost para explorar procesos de red
 ![4.2 Uso de nmap localhost para explorar procesos de red](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.2NMapLH.png)
+
+- ssh: El protocolo SSH (Secure Shell) es un protocolo de red que se utiliza para acceder de forma segura a un sistema remoto.
+- domain: El protocolo DNS (Domain Name System) es un protocolo de red que se utiliza para traducir nombres de dominio en direcciones IP.
+- http: El protocolo HTTP (Hypertext Transfer Protocol) es un protocolo de red que se utiliza para transferir datos entre un servidor web y un cliente web.
+- ipp: El protocolo IPP (Internet Printing Protocol) es un protocolo de red que se utiliza para imprimir documentos en una impresora de red.
