@@ -30,4 +30,4 @@
 # Exercise 4.3 Exploring UNIX signals
 ## Execute the command kill -l. Explain what this command does and use a table to summarise the results (signal number, signal name, short description). You only need to consider signal numbers 1 – 9, and five more of your choice between signal numbers 10 and 31. Please remember to cite any sources that you use to answer this exercise using a recognised academic referencing system (see http://libweb.anglia.ac.uk/referencing/referencing.htm).
 ## 4.3 Uso de kill -l para explorar señales UNIX
-![4.3 Uso de kill -l para explorar señales UNIX](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.2NMapLH.png)
+![4.3 Uso de kill -l para explorar señales UNIX](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.3KillL.png)
