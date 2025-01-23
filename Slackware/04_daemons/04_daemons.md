@@ -29,5 +29,25 @@
 
 # Exercise 4.3 Exploring UNIX signals
 ## Execute the command kill -l. Explain what this command does and use a table to summarise the results (signal number, signal name, short description). You only need to consider signal numbers 1 – 9, and five more of your choice between signal numbers 10 and 31. Please remember to cite any sources that you use to answer this exercise using a recognised academic referencing system (see http://libweb.anglia.ac.uk/referencing/referencing.htm).
+
 ## 4.3 Uso de kill -l para explorar señales UNIX
 ![4.3 Uso de kill -l para explorar señales UNIX](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.3KillL.png)
+
+kill -l lista todos los nombres de las señales.
+
+| Número de Señal | Nombre de Señal |                                                       Descripción                                                                 |
+| --------------- |  -------------  | --------------------------------------------------------------------------------------------------------------------------------- |
+|        1        |     SIGHUP      | Es una señal enviada a un proceso cuando su terminal de control está cerrada.                                                     |
+|        2        |     SIGINT      | Interrumpe el proceso actual y vuelve a un estado inicial (CTL+C).                                                                |
+|        3        |     SIGQUIT     | Causa que el proceso termine y crea un core dump (archivo con información del estado del proceso al momento de su finalización).  |
+|        4        |     SIGILL      | Termina el proceso.                                                                                                               |
+|        5        |     SIGTRAP     | Causa que el proceso genere un core dump.                                                                                         |
+|        6        |     SIGABRT     | Señal para abortar un proceso (Se aborta cuando se termina por una causa anormal).                                                |
+|        7        |     SIGBUS      | Se envía cuando se detecta un error grave que no permite que se continue el proceso.                                              |
+|        8        |     SIGFPE      | Se envía cuando se detecta un error de punto flotante (0/0, sumar infinito, uso incorrecto de operaciones de punto flotante).     |
+|        9        |     SIGKILL     |                                                                                                                                   |
+|       10        |     SIGUSR1     |                                                                                                                                   |
+|       15        |     SIGTERM     | Indica al proceso que finalice limpiamente.                                                                                       |
+|       18        |     SIGCONT     |                                                                                                                                   |
+|       19        |     SIGSTOP     |                                                                                                                                   |
+|       30        |     SIGPWR      |                                                                                                                                   |
