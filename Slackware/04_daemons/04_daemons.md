@@ -69,10 +69,10 @@ delete andrename files.Hint: use thevsftpddaemon.Its configurationfileislocateda
 ## 4.4.0 Comprobación del usuario Bob
 ![4.4.0 Comprobación del usuario Bob](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.4.0ComprobacionBob.png)
 
-## 4.4.1.1 Ingresar a inet.conf
+## 4.4.1.1 Ingresar a inetd.conf
 ![4.4.1.1 Ingresar a inet.conf](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.4.1.1IngresarInetConf.png)
 
-## 4.4.1.2 Modificación de inet.conf
+## 4.4.1.2 Modificación de inetd.conf
 ![4.4.1.2 Modificación de inet.conf](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.4.1.2ModificacionInetConf.png)
 
 ## 4.4.1.3 Restablecimiento y nmap localhost
@@ -83,3 +83,12 @@ delete andrename files.Hint: use thevsftpddaemon.Its configurationfileislocateda
 
 ## 4.4.2.2 Verificación nmap
 ![4.4.2.2 Verificación nmap](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.4.2.2VerificacionNMap.png)
+
+## 4.4.3 SFTP, SSH y Telnet
+
+SFTP es el protocolo de transferencia segura de archivos. Permite la transferencia de archivos desde un ordenador local a un espacio web a través de SSH.
+SSH es un protocolo que permite la conexión con servidores remotos.
+
+Se desaconseja el uso de telnet por la falta de cifrado de datos, lo que lo hace poco seguro. Además no soporta transferencia de archivos de forma nativa, ni carece de soporte para múltiples sesiones. No es compatible con el nuevo software por su falta de seguridad. Hay mejores alternativas como SSH o VPNs.
+
+
