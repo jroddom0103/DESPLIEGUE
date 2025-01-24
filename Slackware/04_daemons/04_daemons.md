@@ -40,14 +40,14 @@ kill -l lista todos los nombres de las señales.
 |        1        |     SIGHUP      | Es una señal enviada a un proceso cuando su terminal de control está cerrada.                                                     |
 |        2        |     SIGINT      | Interrumpe el proceso actual y vuelve a un estado inicial (CTL+C).                                                                |
 |        3        |     SIGQUIT     | Causa que el proceso termine y crea un core dump (archivo con información del estado del proceso al momento de su finalización).  |
-|        4        |     SIGILL      | Termina el proceso.                                                                                                               |
+|        4        |     SIGILL      | Se envía cuando hay una instrucción ilegal.                                                                                         |
 |        5        |     SIGTRAP     | Causa que el proceso genere un core dump.                                                                                         |
 |        6        |     SIGABRT     | Señal para abortar un proceso (Se aborta cuando se termina por una causa anormal).                                                |
 |        7        |     SIGBUS      | Se envía cuando se detecta un error grave que no permite que se continue el proceso.                                              |
 |        8        |     SIGFPE      | Se envía cuando se detecta un error de punto flotante (0/0, sumar infinito, uso incorrecto de operaciones de punto flotante).     |
-|        9        |     SIGKILL     |                                                                                                                                   |
-|       10        |     SIGUSR1     |                                                                                                                                   |
+|        9        |     SIGKILL     | Termina un proceso.                                                                                                                                  |
+|       10        |     SIGUSR1     | Es una señal definida por el usuario.                                                                                                                                 |
 |       15        |     SIGTERM     | Indica al proceso que finalice limpiamente.                                                                                       |
-|       18        |     SIGCONT     |                                                                                                                                   |
-|       19        |     SIGSTOP     |                                                                                                                                   |
-|       30        |     SIGPWR      |                                                                                                                                   |
+|       18        |     SIGCONT     | Se utiliza para reanudar un proceso parado con SIGSTOP.                                                                                                                                  |
+|       19        |     SIGSTOP     | Se usa para parar un proceso.                                                                                                                                  |
+|       30        |     SIGPWR      | Es una señal enviada cuando hay un fallo con la energía.                                                                                                                                  |
