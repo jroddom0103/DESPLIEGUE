@@ -33,21 +33,35 @@
 ## 4.3 Uso de kill -l para explorar señales UNIX
 ![4.3 Uso de kill -l para explorar señales UNIX](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.3KillL.png)
 
-kill -l lista todos los nombres de las señales.
+kill -l lista todos los nombres de las señales junto a sus números correspondientes.
 
 | Número de Señal | Nombre de Señal |                                                       Descripción                                                                 |
 | --------------- |  -------------  | --------------------------------------------------------------------------------------------------------------------------------- |
-|        1        |     SIGHUP      | Es una señal enviada a un proceso cuando su terminal de control está cerrada.                                                     |
+|        1        |     SIGHUP      | Es una señal enviada a un proceso cuando su terminal de control se cierra.                                                        |
 |        2        |     SIGINT      | Interrumpe el proceso actual y vuelve a un estado inicial (CTL+C).                                                                |
 |        3        |     SIGQUIT     | Causa que el proceso termine y crea un core dump (archivo con información del estado del proceso al momento de su finalización).  |
-|        4        |     SIGILL      | Se envía cuando hay una instrucción ilegal.                                                                                         |
+|        4        |     SIGILL      | Se envía cuando hay una instrucción ilegal.                                                                                       |
 |        5        |     SIGTRAP     | Causa que el proceso genere un core dump.                                                                                         |
 |        6        |     SIGABRT     | Señal para abortar un proceso (Se aborta cuando se termina por una causa anormal).                                                |
 |        7        |     SIGBUS      | Se envía cuando se detecta un error grave que no permite que se continue el proceso.                                              |
 |        8        |     SIGFPE      | Se envía cuando se detecta un error de punto flotante (0/0, sumar infinito, uso incorrecto de operaciones de punto flotante).     |
-|        9        |     SIGKILL     | Termina un proceso.                                                                                                                                  |
-|       10        |     SIGUSR1     | Es una señal definida por el usuario.                                                                                                                                 |
+|        9        |     SIGKILL     | Termina un proceso.                                                                                                               |
+|       10        |     SIGUSR1     | Es una señal definida por el usuario.                                                                                             |
 |       15        |     SIGTERM     | Indica al proceso que finalice limpiamente.                                                                                       |
-|       18        |     SIGCONT     | Se utiliza para reanudar un proceso parado con SIGSTOP.                                                                                                                                  |
-|       19        |     SIGSTOP     | Se usa para parar un proceso.                                                                                                                                  |
-|       30        |     SIGPWR      | Es una señal enviada cuando hay un fallo con la energía.                                                                                                                                  |
+|       18        |     SIGCONT     | Se utiliza para reanudar un proceso parado con SIGSTOP.                                                                           |
+|       19        |     SIGSTOP     | Se usa para parar un proceso.                                                                                                     |
+|       30        |     SIGPWR      | Es una señal enviada cuando hay un fallo con la energía.                                                                          |
+
+Signal (IPC).(24 de septiembre de 2024). En Wikipedia.  
+https://en.wikipedia.org/wiki/Signal_(IPC)
+
+signal - lista de las señales disponibles. (2019).
+https://manpages.ubuntu.com/manpages/focal/es/man7/signal.7.html
+
+# Exercise 4.4 Processes and networking
+## You created the bob user account in Exercise 3.2 on page 22, check that it exists before completing this exercise. When completing this exercise, please remember to provide screenshots in your logbook to demonstrate your results.
+1. Edit /etc/inetd.conf to enable ftp and telnet. Restart inetd and execute ftp localhost and telnet
+localhost and log in as bob to see if they are enabled. Make sure you know how to upload, download,
+delete andrename files.Hint: use thevsftpddaemon.Its configurationfileislocatedat: /etc/vsftpd.conf.
+2. Edit /etc/inetd.conf again to disable ftp. Restart inetd and test out your changes.
+3. What is sftp and ssh? Why is the use of telnet discouraged in the “real world”?
