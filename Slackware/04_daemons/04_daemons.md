@@ -70,10 +70,10 @@ delete andrename files.Hint: use thevsftpddaemon.Its configurationfileislocateda
 ![4.4.0 Comprobación del usuario Bob](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.4.0ComprobacionBob.png)
 
 ## 4.4.1.1 Ingresar a inet.conf
-![4.4.1.1 Ingresar a inet.conf](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.4.1ComprobacionBob.png)
+![4.4.1.1 Ingresar a inet.conf](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.4.1.1IngresarInetConf.png)
 
 ## 4.4.1.2 Modificación de inet.conf
-![4.4.1.2 Modificación de inet.conf](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.4.1ComprobacionBob.png)
+![4.4.1.2 Modificación de inet.conf](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.4.1.2ModificacionInetConf.png)
 
 ## 4.4.1.3 Restablecimiento y nmap localhost
-![4.4.1.1 Restablecimiento y nmap localhost](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.4.1ComprobacionBob.png)
+![4.4.1.1 Restablecimiento y nmap localhost](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.4.1.3RestablecimientoNMap.png)
