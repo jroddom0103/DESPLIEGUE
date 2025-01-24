@@ -77,3 +77,9 @@ delete andrename files.Hint: use thevsftpddaemon.Its configurationfileislocateda
 
 ## 4.4.1.3 Restablecimiento y nmap localhost
 ![4.4.1.1 Restablecimiento y nmap localhost](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.4.1.3RestablecimientoNMap.png)
+
+## 4.4.2.1 Deshabilitar ftp
+![4.4.2.1 Deshabilitar ftp](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.4.1.3RestablecimientoNMap.png)
+
+## 4.4.2.2 Restablecimiento nmap
+![4.4.2.2 Restablecimiento nmap](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.4.1.3RestablecimientoNMap.png)
