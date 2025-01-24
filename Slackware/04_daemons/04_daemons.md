@@ -66,5 +66,8 @@ delete andrename files.Hint: use thevsftpddaemon.Its configurationfileislocateda
 2. Edit /etc/inetd.conf again to disable ftp. Restart inetd and test out your changes.
 3. What is sftp and ssh? Why is the use of telnet discouraged in the “real world”?
 
+## 4.4.0 Comprobación del usuario Bob
+![4.4.0 Comprobación del usuario Bob](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.4.0ComprobacionBob.png)
+
 ## 4.4.1 Comprobación del usuario Bob
-![4.4.1 Comprobación del usuario Bob](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.4ComprobacionBob.png)
+![4.4.1 Comprobación del usuario Bob](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.4.1ComprobacionBob.png)
