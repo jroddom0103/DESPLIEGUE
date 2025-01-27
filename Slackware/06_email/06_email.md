@@ -1,6 +1,20 @@
+# 6 * Email under Linux
+
+# Exercise 6.1 Sending email using mail
+1. Create a file called message.txt with some text, then redirect it to mail using the syntax above to send it to
+bob.
+2. Explain what the following command does:
+echo "Welcome to Network Computer Systems" | mail -s "Hello world"
+bob@anglia.bryant -c smith@anglia.bryant -b root@anglia.bryant
+
+# Exercise 6.2 Checking email
+Log in as bob (you can execute su bob, then exit when you are finished) and check that all emails sent to bob
+are present. If they are not, check that sendmail is running. (If sendmail is not running, the emails are saved in
+/var/spool/mqueue/ and will be sent once you start the daemon.)
+
 # Exercise 6.3 Exploring mail
 ## You should complete this exercise as bob, not root.
-![6.0 Uso de bob y no root](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.1PSAuxTop.png)
+![6.3.0 Uso de bob y no root](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/06_email/Capturas/6.3.0CambioBob.png)
 1. Describe, using appropriate screenshots, how to do the following in mail: read, reply, send, delete, list and
 save messages. Hint: to display help in mail, type [?].
 
@@ -14,3 +28,7 @@ after saving changes to a configuration file to make those changes take effect..
 5. From your Windows host machine, telnet to your virtual machine on port 110. Explore talking to the
 POP3 server. Hint: follow the example POP3 session on page 33.
 6. What ports are used by SMTP and POP3?
+
+# Exercise 6.4 Optional exercises
+1. What is IMAP? List the differences between POP3 and IMAP.
+2. What is PGP encryption? How does it work?
