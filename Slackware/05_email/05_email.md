@@ -1,7 +1,9 @@
 # Exercise 6.3 Exploring mail
 ## You should complete this exercise as bob, not root.
+![6.0 Uso de bob y no root](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/04_daemons/Capturas/4.1PSAuxTop.png)
 1. Describe, using appropriate screenshots, how to do the following in mail: read, reply, send, delete, list and
 save messages. Hint: to display help in mail, type [?].
+
 2. What is contained in /var/spool/mail/? What are the security implications of this?
 3. From your Windows host machine, telnet to your virtual machine on port 25 (telnet ip_address 25)
 and send a message to bob@localhost from your_name @localhost by talking to the SMTP server. The
