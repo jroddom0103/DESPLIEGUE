@@ -3,9 +3,9 @@
 # Exercise 6.1 Sending email using mail
 1. Create a file called message.txt with some text, then redirect it to mail using the syntax above to send it to
 bob.
-![6.1.1.1 Crear mensaje con nano](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/06_email/Capturas/6.1.1CrearMensaje.png)
-![6.1.1.2 Escribir mensaje](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/06_email/Capturas/6.1.2EscribirMensaje.png)
-![6.1.1.3 Envío del correo](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/06_email/Capturas/6.1.3EnvioCorreo.png)
+![6.1.1.1 Crear mensaje con nano](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/06_email/Capturas/6.1.1.1CrearMensaje.png)
+![6.1.1.2 Escribir mensaje](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/06_email/Capturas/6.1.1.2EscribirMensaje.png)
+![6.1.1.3 Envío del correo](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/06_email/Capturas/6.1.1.3EnvioCorreo.png)
 
 2. Explain what the following command does:
 echo "Welcome to Network Computer Systems" | mail -s "Hello world"
@@ -15,8 +15,7 @@ Mediante echo y la tubería se pasa el mensaje al comando mail, cuyo asunto es H
 
 # Exercise 6.2 Checking email
 Log in as bob (you can execute su bob, then exit when you are finished) and check that all emails sent to bob
-are present. If they are not, check that sendmail is running. (If sendmail is not running, the emails are saved in
-/var/spool/mqueue/ and will be sent once you start the daemon.)
+are present. If they are not, check that sendmail is running. (If sendmail is not running, the emails are saved in /var/spool/mqueue/ and will be sent once you start the daemon.)
 
 # Exercise 6.3 Exploring mail
 ## You should complete this exercise as bob, not root.
