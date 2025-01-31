@@ -16,6 +16,7 @@ Mediante echo y la tubería se pasa el mensaje al comando mail, cuyo asunto es H
 # Exercise 6.2 Checking email
 Log in as bob (you can execute su bob, then exit when you are finished) and check that all emails sent to bob
 are present. If they are not, check that sendmail is running. (If sendmail is not running, the emails are saved in /var/spool/mqueue/ and will be sent once you start the daemon.)
+![6.2 Revisión correo Bob](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/06_email/Capturas/6.2RevisionCorreo.png)
 
 # Exercise 6.3 Exploring mail
 ## You should complete this exercise as bob, not root.
