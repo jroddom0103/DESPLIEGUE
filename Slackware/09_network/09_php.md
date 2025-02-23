@@ -37,7 +37,8 @@ que están conectados a la red.
 ## Exercise 10.2 Symbolic and hard links
 
 1. Create a file ~/unixstuff/extra_file and a symlink ~/unixstuff/links/extra_file_link which links to extra_file (you may need to create the links directory). Use ls -l whilst in ~/unixstuff/links/ to check that the symlink has been created.
-2. Edit extra_file and add some text to it. Now open extra_file_link by executing the following command: cat ~/unixstuff/links/extra_file_link Do you see the changes you made?
+2. Edit extra_file and add some text to it. Now open extra_file_link by executing the following command: cat ~/unixstuff/links/extra_file_link
+   Do you see the changes you made?
 3. Move extra_file to the backups directory (so its location is now ~/unixstuff/backups/extra_file).
    a) What happensto extra_file_link (if anything)? Hint: try opening the symlink using cat, what isthe
    result? Execute ls -lwhilstin ~/unixstuff/links/, do you notice anything different?
