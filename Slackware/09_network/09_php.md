@@ -37,11 +37,11 @@ que están conectados a la red.
 ## Exercise 10.2 Symbolic and hard links
 
 1. Create a file ~/unixstuff/extra_file and a symlink ~/unixstuff/links/extra_file_link which links to extra_file (you may need to create the links directory). Use ls -l whilst in ~/unixstuff/links/ to check that the symlink has been created.
-   ![10.2.1 Crear Enlace](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.1.2Reboots.png)
+   ![10.2.1 Crear Enlace](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.1CrearEnlace.png)
 
-2. Edit extra_file and add some text to it. Now open extra_file_link by executing the following command: cat ~/unixstuff/links/extra_file_link
-   Do you see the changes you made?
-   ![10.2.2 Añadir Contenido Al Enlace](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.1.2Reboots.png)
+2. Edit extra_file and add some text to it. Now open extra_file_link by executing the following command: cat ~/unixstuff/links/extra_file_link. Do you see the changes you made?
+
+   ![10.2.2 Añadir Contenido Al Enlace](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.2AñadirTextoAlEnlace.png)
 
 3. Move extra_file to the backups directory (so its location is now ~/unixstuff/backups/extra_file).
 
@@ -49,17 +49,26 @@ que están conectados a la red.
    result? Execute ls -l whilst in ~/unixstuff/links/, do you notice anything different?
 
    No debería de funcionar el enlace.
-   ![10.2.3.a.1 Intentar abrir el fichero](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.1.2Reboots.png)
+   ![10.2.3.a.1 Intentar abrir el fichero](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.3.a.1IntentarAbrirArchivo.png)
    No me detecta el archivo, porque ya no está ahí.
-   ![10.2.3.a.2 Enlace en rojo](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.1.2Reboots.png)
+   ![10.2.3.a.2 Enlace en rojo](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.3.a.2EnlaceEnRojo.png)
    Me lo pone en rojo, porque ya no está conectado.
 
    b) Move extra_file back to the unixstuff directory – predict what happens to extra_file_link then test
    your prediction.
 
+   Que volverá a funcionar.
+   ![10.2.3.b Devolver archivo](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.3.bDevolverArchivo.png)
+
 4. Delete extra_file_link. What happens to extra_file (if anything – try opening it using cat)?
+
+   ![10.2.4 Borrar enlace](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.3.bDevolverArchivo.png)
+
 5. Recreate the extra_file_link symlink and delete extra_file. What happens to extra_file_link (if anything)?
    See the hint to question 3 (a) if you are stuck.
+
+   ![10.2.5 Borrar archivo al que apunta el enlace](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.3.bDevolverArchivo.png)
+
 6. Delete extra_file_link and redo questions 1 – 5 above, but this time use hard links instead. Hence explain
    the differences between symbolic and hard links. You might also wish to do some research to explain why
    you see these differences.
