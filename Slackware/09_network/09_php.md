@@ -89,3 +89,5 @@ your prediction.
    ### de los archivos en los sistemas UNIX. Por tanto, presentan el mismo inodo. Es por ello, que aunque se mueva o borre el
 
    ### archivo original, sigue funcionando.
+
+   ![10.2.6 Mismo identificador](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.4BorrarEnlace.png)
