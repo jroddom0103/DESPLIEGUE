@@ -62,12 +62,14 @@ que están conectados a la red.
 
 4. Delete extra_file_link. What happens to extra_file (if anything – try opening it using cat)?
 
-   ![10.2.4 Borrar enlace](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.3.bDevolverArchivo.png)
+   ![10.2.4 Borrar enlace](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.4BorrarEnlace.png)
+   Se puede abrir de forma normal. Porque el enlace es una referencia, no hace falta para que el archivo funcione de forma normal.
 
 5. Recreate the extra_file_link symlink and delete extra_file. What happens to extra_file_link (if anything)?
    See the hint to question 3 (a) if you are stuck.
 
-   ![10.2.5 Borrar archivo al que apunta el enlace](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.3.bDevolverArchivo.png)
+   No va a funcionar, porque el archivo al que hace referencia el enlace ya no existe.
+   ![10.2.5 Borrar archivo al que apunta el enlace](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.5BorrarArchivoAlQueApuntaEnlace.png)
 
 6. Delete extra_file_link and redo questions 1 – 5 above, but this time use hard links instead. Hence explain
    the differences between symbolic and hard links. You might also wish to do some research to explain why
