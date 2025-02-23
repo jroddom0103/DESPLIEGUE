@@ -24,15 +24,18 @@ que están conectados a la red.
 
 1. How many login attempts (successful and failed) occurred in the past 48 hours?
    ![10.1.1.1 Logins Exitosos](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.1.1.1LoginsExitosos.png)
-   Son 8 logins exitosos.
+
+   ### Son 8 logins exitosos.
 
    ![10.1.1.2 Logins Fallidos](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.1.1.2LoginsFallidos.png)
-   Son 13 logins fallidos.
-   9 por ssh y 4 por la terminal de la máquina virtual.
+
+   ### Son 13 logins fallidos.
+
+   ### 9 por ssh y 4 por la terminal de la máquina virtual.
 
 2. How many system reboots occurred in the past 48hours?
    ![10.1.2 Reboots](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.1.2Reboots.png)
-   6 reinicios.
+   ### 6 reinicios.
 
 ## Exercise 10.2 Symbolic and hard links
 
