@@ -48,29 +48,34 @@ que están conectados a la red.
    a) What happens to extra_file_link (if anything)? Hint: try opening the symlink using cat, what is the
    result? Execute ls -l whilst in ~/unixstuff/links/, do you notice anything different?
 
-###No debería de funcionar el enlace.
+### No debería de funcionar el enlace.
 
 ![10.2.3.a.1 Intentar abrir el fichero](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.3.a.1IntentarAbrirArchivo.png)
 
-###No me detecta el archivo, porque ya no está ahí.
+### No me detecta el archivo, porque ya no está ahí.
+
 ![10.2.3.a.2 Enlace en rojo](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.3.a.2EnlaceEnRojo.png)
-Me lo pone en rojo, porque ya no está conectado.
+
+### Me lo pone en rojo, porque ya no está conectado.
 
 b) Move extra_file back to the unixstuff directory – predict what happens to extra_file_link then test
 your prediction.
 
-###Que volverá a funcionar.
+### Que volverá a funcionar.
+
 ![10.2.3.b Devolver archivo](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.3.bDevolverArchivo.png)
 
 4. Delete extra_file_link. What happens to extra_file (if anything – try opening it using cat)?
 
    ![10.2.4 Borrar enlace](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.4BorrarEnlace.png)
-   ###Se puede abrir de forma normal. Porque el enlace es una referencia, no hace falta para que el archivo funcione de forma normal.
+
+   ### Se puede abrir de forma normal. Porque el enlace es una referencia, no hace falta para que el archivo funcione de forma normal.
 
 5. Recreate the extra_file_link symlink and delete extra_file. What happens to extra_file_link (if anything)?
    See the hint to question 3 (a) if you are stuck.
 
-   ###No va a funcionar, porque el archivo al que hace referencia el enlace ya no existe.
+   ### No va a funcionar, porque el archivo al que hace referencia el enlace ya no existe.
+
    ![10.2.5 Borrar archivo al que apunta el enlace](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.5BorrarArchivoAlQueApuntaEnlace.png)
 
 6. Delete extra_file_link and redo questions 1 – 5 above, but this time use hard links instead. Hence explain
