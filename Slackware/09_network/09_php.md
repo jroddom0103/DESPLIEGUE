@@ -87,10 +87,6 @@ your prediction.
 
    ![10.2.6.1 Enlace Fuerte](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.4BorrarEnlace.png)
 
-   ### El enlace fuerte, a diferencia del enlace simbólico que apunta hacia la ruta; apunta al inodo, que es un identificador
-
-   ### de los archivos en los sistemas UNIX. Por tanto, presentan el mismo inodo. Es por ello, que aunque se mueva o borre el
-
-   ### archivo original, sigue funcionando.
+   ### El enlace fuerte, a diferencia del enlace simbólico que apunta hacia la ruta; apunta al inodo, que es un identificador de los archivos en los sistemas UNIX. Por tanto, presentan el mismo inodo. Es por ello, que aunque se mueva o borre el archivo original, sigue funcionando.
 
    ![10.2.6.2 Mismo identificador](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.4BorrarEnlace.png)
