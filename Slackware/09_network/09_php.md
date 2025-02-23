@@ -81,3 +81,11 @@ your prediction.
 6. Delete extra_file_link and redo questions 1 – 5 above, but this time use hard links instead. Hence explain
    the differences between symbolic and hard links. You might also wish to do some research to explain why
    you see these differences.
+
+   ![10.2.6 Enlace Fuerte](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.4BorrarEnlace.png)
+
+   ### El enlace fuerte, a diferencia del enlace simbólico que apunta hacia la ruta; apunta al inodo, que es un identificador
+
+   ### de los archivos en los sistemas UNIX. Por tanto, presentan el mismo inodo. Es por ello, que aunque se mueva o borre el
+
+   ### archivo original, sigue funcionando.
