@@ -48,18 +48,19 @@ que están conectados a la red.
    a) What happens to extra_file_link (if anything)? Hint: try opening the symlink using cat, what is the
    result? Execute ls -l whilst in ~/unixstuff/links/, do you notice anything different?
 
-- No debería de funcionar el enlace.
-  ![10.2.3.a.1 Intentar abrir el fichero](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.3.a.1IntentarAbrirArchivo.png)
+   # No debería de funcionar el enlace.
 
-  No me detecta el archivo, porque ya no está ahí.
-  ![10.2.3.a.2 Enlace en rojo](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.3.a.2EnlaceEnRojo.png)
-  Me lo pone en rojo, porque ya no está conectado.
+![10.2.3.a.1 Intentar abrir el fichero](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.3.a.1IntentarAbrirArchivo.png)
 
-  b) Move extra_file back to the unixstuff directory – predict what happens to extra_file_link then test
-  your prediction.
+No me detecta el archivo, porque ya no está ahí.
+![10.2.3.a.2 Enlace en rojo](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.3.a.2EnlaceEnRojo.png)
+Me lo pone en rojo, porque ya no está conectado.
 
-  Que volverá a funcionar.
-  ![10.2.3.b Devolver archivo](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.3.bDevolverArchivo.png)
+b) Move extra_file back to the unixstuff directory – predict what happens to extra_file_link then test
+your prediction.
+
+Que volverá a funcionar.
+![10.2.3.b Devolver archivo](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.3.bDevolverArchivo.png)
 
 4. Delete extra_file_link. What happens to extra_file (if anything – try opening it using cat)?
 
