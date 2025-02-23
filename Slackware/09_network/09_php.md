@@ -48,7 +48,7 @@ que están conectados a la red.
    a) What happens to extra_file_link (if anything)? Hint: try opening the symlink using cat, what is the
    result? Execute ls -l whilst in ~/unixstuff/links/, do you notice anything different?
 
-   # No debería de funcionar el enlace.
+   ### No debería de funcionar el enlace.
 
 ![10.2.3.a.1 Intentar abrir el fichero](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.3.a.1IntentarAbrirArchivo.png)
 
