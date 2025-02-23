@@ -82,7 +82,7 @@ your prediction.
    the differences between symbolic and hard links. You might also wish to do some research to explain why
    you see these differences.
 
-   ![10.2.6 Enlace Fuerte](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.4BorrarEnlace.png)
+   ![10.2.6.1 Enlace Fuerte](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.4BorrarEnlace.png)
 
    ### El enlace fuerte, a diferencia del enlace simbólico que apunta hacia la ruta; apunta al inodo, que es un identificador
 
@@ -90,4 +90,4 @@ your prediction.
 
    ### archivo original, sigue funcionando.
 
-   ![10.2.6 Mismo identificador](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.4BorrarEnlace.png)
+   ![10.2.6.2 Mismo identificador](https://github.com/jroddom0103/DESPLIEGUE/blob/master/Slackware/09_network/Capturas/10.2.4BorrarEnlace.png)
